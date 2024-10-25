@@ -254,9 +254,9 @@
        default each one to off.-->
   <xacro:include filename="$(find jackal_description)/urdf/accessories.urdf.xacro" />
 
-  <!-- sensor rig -->
+  <!-- HT sensor rig -->
   <xacro:include filename="$(find ht_sensor_system)/urdf/sensor_rig.urdf.xacro" />
-  
+
   <!-- OutdoorNav -->
   <xacro:arg name="outdoornav_enabled"       default="$(optenv OUTDOORNAV_ENABLED 0)" />
   <xacro:arg name="outdoornav_configuration" default="$(optenv OUTDOORNAV_CONFIGURATION standard)" />
