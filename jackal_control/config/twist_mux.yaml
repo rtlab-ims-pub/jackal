@@ -11,8 +11,8 @@ topics:
   topic   : twist_marker_server/cmd_vel
   timeout : 0.5
   priority: 8
-- name    : external
-  topic   : cmd_vel
+- name    : elrs_sbus_joy
+  topic   : elrs_sbus/cmd_vel
   timeout : 0.5
   priority: 1
 locks:
